@@ -9,3 +9,24 @@ h1 {
 .heading-color {
     color: orange;
 }
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link-btn {
+    padding: 10px 40px;
+    background-image: linear-gradient(salmon, tomato);
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
