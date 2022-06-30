@@ -8,6 +8,14 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
 .heading-color {
     color: orange;
 }
@@ -33,7 +41,6 @@ h1 {
 .top-banner {
     background-image: url(./img/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
 }
 
 .dream-big {
@@ -44,4 +51,19 @@ h1 {
 
 .flex-container {
     display: flex;
+}
+
+.experience {
+    background-image: url(./img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
 }
