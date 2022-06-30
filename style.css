@@ -12,9 +12,6 @@ h1 {
     color: orange;
 }
 
-section {
-    display: flex;
-}
 
 .half-width {
     width: 50%;
@@ -43,4 +40,8 @@ section {
     background-image: url(./img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.flex-container {
+    display: flex;
 }
